@@ -1,0 +1,78 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 850M (ID=0x1391)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   20.19.15.4531
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.033 seconds
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\mupetmower1337\Documents\UnityProjects\My2DRougelikeNamePending\Builds\RestartTestBuild1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.754699 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException: Object reference not set to an instance of an object
+  at StartMenuController.LoadFirstLevel () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 7.338944 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 41673.
+Total: 10.443715 ms (FindLiveObjects: 2.139587 ms CreateObjectMapping: 0.833728 ms MarkObjects: 7.406053 ms  DeleteObjects: 0.062766 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 266.635681 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.InitGame () [0x00000] in <filename unknown>:0 
+  at GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 351.
+Total: 1.763778 ms (FindLiveObjects: 0.964788 ms CreateObjectMapping: 0.040265 ms MarkObjects: 0.442128 ms  DeleteObjects: 0.315806 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.342649 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 41561.
+Total: 10.900450 ms (FindLiveObjects: 2.340914 ms CreateObjectMapping: 0.722012 ms MarkObjects: 7.779099 ms  DeleteObjects: 0.058029 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: a88 -> priority: 1 
